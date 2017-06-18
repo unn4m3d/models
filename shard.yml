@@ -1,0 +1,13 @@
+name: models
+version: 0.1.0
+
+authors:
+  - unn4m3d <smelnikov871@gmail.com>
+
+crystal: 0.22.0
+
+dependencies:
+  crystaledge:
+    github: unn4m3d/crystaledge
+
+license: MIT
