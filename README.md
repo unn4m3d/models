@@ -1,6 +1,6 @@
 # models
 
-TODO: Write a description here
+A set of structures to represent a 3d mesh
 
 ## Installation
 
@@ -9,24 +9,12 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   models:
-    github: [your-github-name]/models
+    github: unn4m3d/models
 ```
-
-## Usage
-
-```crystal
-require "models"
-```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/models/fork )
+1. Fork it ( https://github.com/unn4m3d/models/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -34,4 +22,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) unn4m3d - creator, maintainer
+- [unn4m3d](https://github.com/unn4m3d) - creator, maintainer
