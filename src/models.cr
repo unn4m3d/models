@@ -8,5 +8,13 @@ module Models
 
   alias Face = Array(Vertex)
 
-  record Shape, name : String, faces : Array(Face), material : String, subshapes : Array(Shape)
+  class Shape
+    property name : String
+    property faces : Array(Face)
+    property material : String
+    property subshapes : Array(Shape)
+
+    def initialize(@name, @faces, @material, @subshapes)
+    end
+  end
 end
