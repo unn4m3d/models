@@ -11,7 +11,7 @@ module Models
   class Shape
     property name : String
     property faces : Array(Face)
-    property material : String
+    property material : Material
     property subshapes : Array(Shape)
 
     def initialize(@name, @faces, @material, @subshapes)
