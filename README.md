@@ -10,6 +10,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   models:
     github: unn4m3d/models
+    tag: v0.1.1
 ```
 
 ## Contributing
