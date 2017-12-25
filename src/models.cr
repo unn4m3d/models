@@ -18,6 +18,21 @@ module Models
     end
   end
 
+  class Material
+    @colors = {} of String => Vec3
+    @dissolvance = 0f64
+    @maps = {} of String => String
+    @reflection = {} of String => String
+
+    property colors, dissolvance, maps, reflection
+
+    def initialize
+    end
+
+    def initialize(@colors, @dissolvance, @maps, @reflection)
+    end
+  end
+
   DEFAULT_MATERIAL = "$default"
 
 end
