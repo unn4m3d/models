@@ -17,4 +17,7 @@ module Models
     def initialize(@name, @faces, @material, @subshapes)
     end
   end
+
+  DEFAULT_MATERIAL = "$default"
+
 end
