@@ -11,7 +11,7 @@ module Models
   class Shape
     property name : String
     property faces : Array(Face)
-    property material : Material
+    property material : Material?
     property subshapes : Array(Shape)
 
     def initialize(@name, @faces, @material, @subshapes)
@@ -19,6 +19,7 @@ module Models
   end
 
   class Material
+    @name : String
     @colors = {} of String => Vec3
     @dissolvance = 0f64
     @maps = {} of String => String
@@ -26,10 +27,10 @@ module Models
 
     property colors, dissolvance, maps, reflection
 
-    def initialize
+    def initialize(@name)
     end
 
-    def initialize(@colors, @dissolvance, @maps, @reflection)
+    def initialize(@name, @colors, @dissolvance, @maps, @reflection)
     end
   end
 
