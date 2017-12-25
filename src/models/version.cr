@@ -1,3 +1,5 @@
+require "version"
+
 module Models
-  VERSION = "0.1.0"
+  VERSION = Version.fetch
 end
