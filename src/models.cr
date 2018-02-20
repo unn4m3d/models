@@ -24,6 +24,9 @@ module Models
     @dissolvance = 0f64
     @maps = {} of String => String
     @reflection = {} of String => String
+    @specular_exponent = 0f64
+    @sharpness = 0f64
+    @optical_density = 0f64
 
     property colors, dissolvance, maps, reflection
 
@@ -31,6 +34,9 @@ module Models
     end
 
     def initialize(@name, @colors, @dissolvance, @maps, @reflection)
+    end
+
+    def initialize(@name, @colors, @dissolvance, @maps, @reflection, @specular_exponent, @sharpness, @optical_density)
     end
   end
 
