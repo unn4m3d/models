@@ -9,6 +9,7 @@ crystal: 0.22.0
 dependencies:
   crystaledge:
     github: unn4m3d/crystaledge
+    branch: dev/transform
   version:
     github: unn4m3d/version
 
